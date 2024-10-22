@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="image/hi5.png" alt="Logo">
+            </div>
+            <div class="links">
+                <a href="index.html">back</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">ContactUs</a> 
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question">What services do you offer?</button>
+            <div class="faq-answer">
+                <p>We offer web development, digital marketing, and graphic design services.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">How can I contact you for services?</button>
+            <div class="faq-answer">
+                <p>You can contact us via our Contact page.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Where our Location?</button>
+            <div class="faq-answer">
+                <p>Our Location is in India,Banglore,MS Nager.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach((item) => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>

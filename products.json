@@ -1,0 +1,444 @@
+[
+    {
+        "id": 1,
+        "name": "chair1",
+        "price": 70,
+        "image": "image/1.png",
+        "category": "furniture"
+    },{
+        "id": 2,
+        "name": "chair2",
+        "price": 75,
+        "image": "image/2.png",
+        "category": "furniture"
+    },{
+        "id": 3,
+        "name": "chair3",
+        "price": 35,
+        "image": "image/3.png",
+        "category": "furniture"
+    },{
+        "id": 4,
+        "name": "chair4",
+        "price": 80,
+        "image": "image/4.png",
+        "category": "furniture"
+    },{
+        "id": 5,
+        "name": "chair5",
+        "price": 130,
+        "image": "image/5.png",
+        "category": "furniture"
+    },{
+        "id": 6,
+        "name": "chair6",
+        "price": 55,
+        "image": "image/6.png",
+        "category": "furniture"
+    },{
+        "id": 7,
+        "name": "chair7",
+        "price": 45,
+        "image": "image/7.png",
+        "category": "furniture"
+    },{
+        "id": 8,
+        "name": "chair8",
+        "price": 65,
+        "image": "image/8.png",
+        "category": "furniture"
+    },
+    {
+        "id": 9,
+        "name": "shirt1",
+        "price": 50,
+        "image": "image/22.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 10,
+        "name": "shirt2",
+        "price": 35,
+        "image": "image/23.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 11,
+        "name": "shirt3",
+        "price": 40,
+        "image": "image/24.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 12,
+        "name": "shirt4",
+        "price": 60,
+        "image": "image/25.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 13,
+        "name": "shirt5",
+        "price": 55,
+        "image": "image/26.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 14,
+        "name": "shirt6",
+        "price": 50,
+        "image": "image/27.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 15,
+        "name": "shirt7",
+        "price": 40,
+        "image": "image/28.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 16,
+        "name": "shirt8",
+        "price": 30,
+        "image": "image/29.avif",
+        "category": "clothes"
+    },
+    {
+        "id": 17,
+        "name": "phone1",
+        "price": 700,
+        "image": "image/31.avif",
+        "category": "devices"
+    },
+    {
+        "id": 18,
+        "name": "phone2",
+        "price": 900,
+        "image": "image/32.avif",
+        "category": "devices"
+    },
+    {
+        "id": 19,
+        "name": "phone3",
+        "price": 1000,
+        "image": "image/33.avif",
+        "category": "devices"
+    },
+    {
+        "id": 20,
+        "name": "phone4",
+        "price": 550,
+        "image": "image/34.avif",
+        "category": "devices"
+    },
+    {
+        "id": 21,
+        "name": "phone5",
+        "price": 650,
+        "image": "image/35.avif",
+        "category": "devices"
+    },
+    {
+        "id": 22,
+        "name": "phone6",
+        "price": 950,
+        "image": "image/36.avif",
+        "category": "devices"
+    },
+    {
+        "id": 23,
+        "name": "phone7",
+        "price": 350,
+        "image": "image/37.avif",
+        "category": "devices"
+    },
+    {
+        "id": 24,
+        "name": "phone8",
+        "price": 850,
+        "image": "image/38.avif",
+        "category": "devices"
+    },
+    {
+        "id": 25,
+        "name": "toy1",
+        "price": 20,
+        "image": "image/41.avif",
+        "category": "toys and games"
+    },
+    {
+        "id": 26,
+        "name": "toy2",
+        "price": 20,
+        "image": "image/42.jpg",
+        "category": "toys and games"
+    },
+    {
+        "id": 27,
+        "name": "toy3",
+        "price": 15,
+        "image": "image/43.avif",
+        "category": "toys and games"
+    },
+    {
+        "id": 28,
+        "name": "toy4",
+        "price": 10,
+        "image": "image/44.avif",
+        "category": "toys and games"
+    },
+    {
+        "id": 29,
+        "name": "toy5",
+        "price": 25,
+        "image": "image/45.avif",
+        "category": "toys and games"
+    },
+    {
+        "id": 30,
+        "name": "toy6",
+        "price": 20,
+        "image": "image/46.avif",
+        "category": "toys and games"
+    },
+
+    {
+        "id": 31,
+        "name": "toy7",
+        "price": 15,
+        "image": "image/47.avif",
+        "category": "toys and games"
+    },
+    {
+        "id": 32,
+        "name": "toy8",
+        "price": 10,
+        "image": "image/48.avif",
+        "category": "toys and games"
+    },
+    {
+        "id": 33,
+        "name": "product1",
+        "price": 45,
+        "image": "image/51.avif",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 34,
+        "name": "product2",
+        "price": 65,
+        "image": "image/52.jpg",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 35,
+        "name": "product3",
+        "price": 40,
+        "image": "image/53.jpg",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 36,
+        "name": "product4",
+        "price": 70,
+        "image": "image/54.jpg",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 37,
+        "name": "product5",
+        "price": 35,
+        "image": "image/55.jpg",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 38,
+        "name": "product6",
+        "price": 25,
+        "image": "image/56.avif",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 39,
+        "name": "product7",
+        "price": 90,
+        "image": "image/57.avif",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 40,
+        "name": "product8",
+        "price": 20,
+        "image": "image/58.avif",
+        "category": "beauty and personal care"
+    },
+    {
+        "id": 41,
+        "name": "product1",
+        "price": 90,
+        "image": "image/61.avif",
+        "category": "health and wellness"
+    },
+    {
+        "id": 42,
+        "name": "product2",
+        "price": 20,
+        "image": "image/62.jpg",
+        "category": "health and wellness"
+    },
+    {
+        "id": 43,
+        "name": "product3",
+        "price": 60,
+        "image": "image/63.avif",
+        "category": "health and wellness"
+    },
+    {
+        "id": 44,
+        "name": "product4",
+        "price": 25,
+        "image": "image/64.avif",
+        "category": "health and wellness"
+    },
+    {
+        "id": 45,
+        "name": "product5",
+        "price": 30,
+        "image": "image/65.avif",
+        "category": "health and wellness"
+    },
+    {
+        "id": 46,
+        "name": "product6",
+        "price": 45,
+        "image": "image/66.jpg",
+        "category": "health and wellness"
+    },
+    {
+        "id": 47,
+        "name": "product7",
+        "price": 35,
+        "image": "image/67.avif",
+        "category": "health and wellness"
+    },
+    {
+        "id": 48,
+        "name": "product8",
+        "price": 80,
+        "image": "image/68.avif",
+        "category": "health and wellness"
+    },
+    {
+        "id": 49,
+        "name": "product1",
+        "price": 700,
+        "image": "image/71.jpg",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 50,
+        "name": "product2",
+        "price": 900,
+        "image": "image/72.jpg",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 51,
+        "name": "product3",
+        "price": 1000,
+        "image": "image/73.jpg",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 52,
+        "name": "product4",
+        "price": 550,
+        "image": "image/74.jpg",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 53,
+        "name": "product5",
+        "price": 650,
+        "image": "image/75.avif",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 54,
+        "name": "product6",
+        "price": 950,
+        "image": "image/76.avif",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 55,
+        "name": "product7",
+        "price": 350,
+        "image": "image/77.avif",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 56,
+        "name": "product8",
+        "price": 850,
+        "image": "image/78.avif",
+        "category": "hobbies and crafts"
+    },
+    {
+        "id": 57,
+        "name": "product1",
+        "price": 700,
+        "image": "image/81.jpg",
+        "category": "books and stationery"
+    },
+    {
+        "id": 58,
+        "name": "product2",
+        "price": 900,
+        "image": "image/82.jpg",
+        "category": "books and stationery"
+    },
+    {
+        "id": 59,
+        "name": "product3",
+        "price": 1000,
+        "image": "image/83.jpg",
+        "category": "books and stationery"
+    },
+    {
+        "id": 60,
+        "name": "product4",
+        "price": 550,
+        "image": "image/84.jpg",
+        "category": "books and stationery"
+    },
+    {
+        "id": 61,
+        "name": "product5",
+        "price": 650,
+        "image": "image/85.webp",
+        "category": "books and stationery"
+    },
+    {
+        "id": 62,
+        "name": "product6",
+        "price": 950,
+        "image": "image/86.jpg",
+        "category": "books and stationery"
+    },
+    {
+        "id": 63,
+        "name": "product7",
+        "price": 350,
+        "image": "image/87.jpg",
+        "category": "books and stationery"
+    },
+    {
+        "id": 64,
+        "name": "product8",
+        "price": 850,
+        "image": "image/88.jpg",
+        "category": "books and stationery"
+    }
+]

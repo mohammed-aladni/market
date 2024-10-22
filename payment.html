@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Payment Method</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/hi5.png" alt="Logo"> <!-- Replace with your logo image -->
+        </div>
+        <!-- Back Button -->
+        <div class="back-button" >
+            <a href="homepage.html" class="back-link">
+                <button class="back-button">Back</button>
+            </a>
+    </header>
+    <div class="container">
+        <h1>Select Payment Method</h1>
+        <div class="payment-options">
+            <button id="pay-mastercard" class="button">Mastercard</button>
+            <button id="pay-visa" class="button">Visa</button>
+            <button id="pay-google" class="button">Google Pay</button>
+        </div>
+        <div class="coupon-section">
+            <h3>Do Have a Coupon?</h3>
+            <input type="text" id="coupon-code" placeholder="Enter coupon code">
+            <button id="apply-coupon">Apply</button>
+        </div>
+        
+        <div class="total-amount">
+            <h3>Total Amount: <span id="total-amount"></span></h3>
+        </div>
+    </div>
+
+    <script>
+        // Get the total amount from local storage
+        const totalAmount = localStorage.getItem('totalAmount');
+        document.getElementById('total-amount').textContent = `$${parseFloat(totalAmount).toFixed(2)}`;
+
+        // Payment processing function
+        const processPayment = (method) => {
+            alert(`Processing payment of $${totalAmount} with ${method}`);
+            // Here, you can add actual payment processing logic
+        };
+
+        // Event listeners for payment buttons
+        document.getElementById('pay-mastercard').addEventListener('click', () => processPayment('Mastercard'));
+        document.getElementById('pay-visa').addEventListener('click', () => processPayment('Visa'));
+        document.getElementById('pay-google').addEventListener('click', () => processPayment('Google Pay'));
+
+
+        document.getElementById('apply-coupon').addEventListener('click', () => {
+        const coupon = document.getElementById('coupon-code').value;
+        let totalAmount = parseFloat(localStorage.getItem('totalAmount'));
+        if (coupon === 'DISCOUNT10') {
+            totalAmount = totalAmount * 0.9;
+            alert('Coupon applied! 10% discount');
+        } else {
+            alert('Invalid coupon code');
+        }
+        document.getElementById('total-amount').textContent = `$${totalAmount.toFixed(2)}`;
+    });
+    </script>
+</body>
+</html>
