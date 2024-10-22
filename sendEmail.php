@@ -24,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 587;  // Port for TLS
 
         //Recipients
-        $mail->setFrom('mohammed8aladni@gmail.com', 'Your Name');
-        $mail->addAddress('mohammed8aladni@gmail.com');  // Recipient
+        $mail->setFrom('', 'Your Name');
+        $mail->addAddress('');  // Recipient
 
         // Content
         $mail->isHTML(true);
