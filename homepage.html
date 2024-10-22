@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/hi5.png" alt="Logo" width="120px" height="66px">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#products">Products</a>
+          <ul class="dropdown-content">
+            <li><a href="index2.html">Furniture</a></li>
+            <li><a href="index3.html">Clothes</a></li>
+            <li><a href="index4.html">Devices</a></li>
+            <li><a href="index5.html">Toys and Games</a></li>
+            <li><a href="index6.html">Beauty and Personal Care</a></li>
+            <li><a href="index7.html">Health and Wellness</a></li>
+            <li><a href="index8.html">Hobbies and Crafts</a></li>
+            <li><a href="index9.html">Books and Stationery</a></li>
+
+
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products..." id="searchInput">
+        <button id="searchButton" type="button"><img src="/image/scan.png" alt="Search" ></button>
+      </div>
+      
+    </nav>
+  </header>
+  
+    <div class="background-image">
+      <img src="image/market.avif" alt="Market background image">
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Market Website. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script>
+    document.getElementById('searchButton').addEventListener('click', function() {
+      var searchTerm = document.getElementById('searchInput').value.toLowerCase(); // Get the search input and convert it to lowercase
+  
+      if (searchTerm === 'furniture') {
+        window.location.href = 'index2.html'; // Redirect to the furniture page
+      } else if (searchTerm === 'clothes') {
+        window.location.href = 'index3.html'; // Redirect to the clothes page
+      }else if (searchTerm === 'devices') {
+        window.location.href = 'index4.html'; // Redirect to the clothes page 
+      }else if (searchTerm === 'toys') {
+        window.location.href = 'index5.html'; // Redirect to the devices page
+      }else if (searchTerm === 'beauty') {
+        window.location.href = 'index6.html'; // Redirect to the clothes page 
+      } else if (searchTerm === 'health') {
+          window.location.href = 'index7.html'; // Redirect to the clothes page
+      }else if (searchTerm === 'crafts') {
+          window.location.href = 'index8.html'; // Redirect to the clothes page
+      }else if (searchTerm === 'books') {
+          window.location.href = 'index9.html'; // Redirect to the clothes page
+      }else {
+        alert('No results found.'); // Alert if the search term doesn't match any category
+      }
+    });
+  </script>
+  
+  
+  
+</body>
+</html>

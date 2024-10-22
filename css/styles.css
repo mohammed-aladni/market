@@ -1,0 +1,194 @@
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222; /* Darker background for modern look */
+  height: 60px; /* Fixed height */
+  padding: 0 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  position: relative;
+  z-index: 100; /* Ensure it is above other elements */
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #f5f5f5; /* Light text color */
+  letter-spacing: 2px; /* Slightly spaced letters for a modern look */
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px; /* Add more space between menu items */
+}
+
+.nav-links a {
+  color: #f5f5f5; /* White text color */
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  border-radius: 4px; /* Rounded corners for buttons */
+}
+
+.nav-links a:hover {
+  background-color: #d72ee0; /* Highlight with your primary color on hover */
+  color: white;
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-content a:hover {
+  background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: #222;
+  color: #e8dbea;
+  width: 200px;
+  font-size: 1em;
+}
+
+.search-bar button {
+  background-color: #cec5d2;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #efe8f3;
+}
+
+.search-bar button img {
+  width: 18px;
+  height: 18px;
+}
+
+/* Main content styles */
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+.background-image {
+  width: 100%;
+  height: calc(100vh - 60px); /* Subtract navbar height */
+  overflow: hidden;
+  position: relative;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire space proportionally */
+  display: block;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+html, body {
+  max-height: 100vh; /* Limit height to viewport height */
+  overflow-y: auto;  /* Allow vertical scrolling */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 #ddd; /* Custom scrollbar colors */
+}
+
+/* For WebKit-based browsers (e.g., Chrome, Safari) */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+  background-color: #ddd; /* Color of the scrollbar track */
+}
+footer {
+  background-color: #222;
+  padding: 20px 0;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
