@@ -440,25 +440,5 @@
         "price": 850,
         "image": "image/88.jpg",
         "category": "books and stationery"
-    },{
-  "images": [
-    {
-      "alt": "Logo",
-      "src": "image/hi5.png"
-    },
-    {
-      "alt": "Team Member 1",
-      "src": "image/photo.jpg"
-    },
-    {
-      "alt": "Team Member 2",
-      "src": "image/photo2.jpg"
-    },
-    {
-      "alt": "Team Member 3",
-      "src": "image/photo1.jpg"
     }
-  ]
-}
-
 ]
